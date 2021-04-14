@@ -1,0 +1,86 @@
+body
+{
+   color:white;
+background-color: white;
+
+}
+h1
+{
+    color: black;
+}
+
+
+@media screen 
+{
+    body
+	{
+		color: red;
+	}
+	.messComp
+	{
+		color: black;
+		 left: 10;
+		top: 30;
+	
+		background-color: #BDE5F5;
+		background-image: url('info.png');
+	}
+	.messM
+	{
+		color: white;
+	}
+	.messPr
+	{
+		color: white;
+	}
+}
+
+@media screen and (max-device-width: 480px)
+{
+    body
+	{
+		color: green;
+	}
+	.messM
+	{
+		color: black;
+		left: 10;
+		top: 30;
+		background-color: #BDE5F5;
+		background-image: url('info.png');
+	}
+	.messComp
+	{
+		color: white;
+	}	
+	.messPr
+	{
+		color: white;
+	}
+}
+
+@media print
+{ 
+	body
+	{
+		body: blue;
+	}
+	.messPr
+	{
+		color: black;
+		left: 10;
+		top: 30;
+		background-color: #BDE5F5;
+		background-image: url('info.png');
+	}
+	.messM
+	{
+		color: white;
+	}
+	.messComp
+	{
+		color: white;
+	}	
+	
+}
+
